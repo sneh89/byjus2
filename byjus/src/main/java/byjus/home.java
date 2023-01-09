@@ -10,7 +10,7 @@ public class home {
 	Select s;
 	
 	@FindBy(xpath="//select[contains(@class,'form-control video-selectio')]")private WebElement classes;
-	@FindBy(xpath="(//a[@class='video-thumbnail'][1])")private WebElement v1;  // to click on video1
+	@FindBy(xpath="(//a[@class='video-thumbnail'][1])")private WebElement v1;  // to click on video1 to watch.
 	@FindBy(xpath="(//a[@class='video-thumbnail'])[2]")private WebElement v2;
 	@FindBy(xpath="(//a[@class='video-thumbnail'])[3]")private WebElement v3; 
 	@FindBy(xpath="(//a[@class='video-thumbnail'])[4]")private WebElement v4;
